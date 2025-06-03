@@ -154,7 +154,7 @@ accelerate launch --main_process_port 52428  run_glue_Calib.py \
   --per_device_train_batch_size 8 \
   --learning_rate 2e-5 \
   --num_train_epochs 3 \
-  --fp16 \
+  --fp16 \ 
   --save_steps 500 \
   --overwrite_output_dir \
   --logging_step 10 \
